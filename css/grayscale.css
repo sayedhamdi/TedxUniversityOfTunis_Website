@@ -3,7 +3,9 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
-
+.sz{
+  width:95%!important;
+}
 #mainNav {
   min-height: 56px;
   background-color: #fff;

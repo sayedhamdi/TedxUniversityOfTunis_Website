@@ -20,16 +20,42 @@
 
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet">
+    <style type="text/css">
+      .sz {margin-left: 20px!important;}
+
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #ff2b06;  }
+  
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #ff2b06;
+    outline: none;
+    border-bottom: 0.25rem solid #ff2b06;
+  }
+  #menu {
+    color:#ff2b06!important;
+    border-color:#ff2b06!important;
+  }
+  .border-red{
+    border-color:#ff2b06!important;
+  }
+  .border-none{
+    border-right: 0.5rem solid #ff2b06;
+    border-left: 0px!important;
+    margin-right: 20px;
+  }
+
+    </style>
 
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div style="position:relative;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="postion:fixed">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="togg" src="res/logoblanc.PNG" width="250px"></a>
+        <button class="navbar-toggler navbar-toggler-right" id="menu" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
         </button>
@@ -39,26 +65,26 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#projects">Speakers</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
+     
+  </div>
     <!-- Header -->
-    <header class="masthead">
-      <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
-        </div>
-      </div>
-    </header>
+   
+          <video  playsinline autoplay muted loop width="100%" style="margin-bottom: -10px">
+            <source src="res/acceuil.mp4" type="video/mp4" >
+          </video>  
+        
+   
+   
+    
 
     <!-- About Section -->
     <section id="about" class="about-section text-center">
@@ -78,54 +104,71 @@
     <section id="projects" class="projects-section bg-light">
       <div class="container">
 
-        <!-- Featured Project Row -->
+        <!-- what is ted -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          <div class="col-xl-6 col-lg-6">
+            <img class="img-fluid mb-3 mb-lg-0" src="res/what is ted copie.JPG" alt="">
           </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
-              <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+          <div class="col-xl-6 col-lg-6">
+            <div class="featured-text text-center text-lg-left border-red sz">
+              <h4>Ted ?</h4>
+              <p class="text-black-50 mb-0">TED is an annual event that brings together the minds 
+                      leading thinkers and doers to share ideas that matter in 
+                      any discipline : Technology, Entertainment, Design, 
+                      Science, Humanities, Business, Development,etc. 
+                      The talks at the conference, called TED Talks, are then 
+                      made available to watch for free on </p>
+            </div>
+          </div>
+        </div>
+        <!--  what is  tedx-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          
+          <div class="col-xl-6 col-lg-6">
+            <div class="featured-text text-center text-lg-left border-none">
+              <h4>TEDx ??</h4>
+              <p class="text-black-50 mb-0">
+                In the spirit of "ideas worth spreading," TED has created TEDx
+                a program of local and self-organized events that 
+                bring people together to share a TED-like experience.  
+                At a TEDx event, TED Talks videos and live speakers 
+                combine to spark deep discussions and connections. 
+                Our TEDx event is not organized by TED Conferences , 
+                but is operated under a license from TED. 
+              </p>
+
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <img class="img-fluid mb-3 mb-lg-0" src="res/what is tedx copie.JPG" alt="">
+          </div>
+        </div>
+           <!--  who are we-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-6 col-lg-6">
+            <img class="img-fluid mb-3 mb-lg-0" src="res/who are we.jpg" alt="">
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="featured-text text-center text-lg-left border-red sz">
+              <h4>Us ?</h4>
+              <p class="text-black-50 mb-0">
+                Following the gathering of a group of talented young 
+                students from different universities in Tunis, the idea of 
+                TEDxUniversityofTunis 
+                is born in its first edition. 
+                We are members from different cultures who contribute to 
+                the society by practicing various associative activities. 
+                This allows us to be in a good position of responsibility 
+                and management for this impactful event. 
+
+              </p>
             </div>
           </div>
         </div>
 
-        <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Misty</h4>
-                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
-        <!-- Project Two Row -->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Mountains</h4>
-                  <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                  <hr class="d-none d-lg-block mb-0 mr-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
       </div>
     </section>
@@ -222,7 +265,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
-
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 
 </html>
