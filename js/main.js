@@ -1,8 +1,8 @@
-console.log("ey")
-console.log($("#bar").innerHeight())
-$("#ahbet").css("margin-top",$("#bar").css("height"))
-if ($(window).width()<960)
+AOS.init();
+if ($(window).width()<960){
 	$(".togg").attr("src","res/logonoir.PNG")
+	$("#ahbet").css("margin-top",$("#bar").css("height"))
+}
 $(window).scroll(function(e){
 	if ($(window).width()>976){
 		var posTop = $('.container').scrollTop() - $('.container').offset().top;
