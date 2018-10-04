@@ -1,3 +1,6 @@
+console.log("ey")
+console.log($("#bar").innerHeight())
+$("#ahbet").css("margin-top",$("#bar").css("height"))
 if ($(window).width()<960)
 	$(".togg").attr("src","res/logonoir.PNG")
 $(window).scroll(function(e){
