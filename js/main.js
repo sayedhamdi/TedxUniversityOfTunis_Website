@@ -20,7 +20,9 @@ $(window).scroll(function(e){
 
 if ($(window).width()<990){
 	console.log("yes")
+	$("#text").css("border","0px")
 	let swap = $("#txt").html()
 	$("#txt").html($("#img").html())
 	$("#img").html(swap)
+
 }

@@ -45,6 +45,23 @@
     border-left: 0px!important;
     margin-right: 20px;
   }
+  .card{
+    border-color:#ff2b06!important;
+  }
+  #theme{
+    background-image: url('res/theme.jpg');
+
+    background-size:60% auto; 
+    background-repeat: no-repeat;
+    background-
+
+  }
+  .contactsred{
+    color:#ff2b06!important;
+  }
+  .my-4{
+    border-color:#ff2b06!important;
+  }
 
     </style>
 
@@ -64,7 +81,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#theme">Theme</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
@@ -89,17 +106,21 @@
     
 
     <!-- About Section -->
-    <section id="about" class="about-section text-center">
+    <section id="theme" class="about-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-            <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
+            <p class="text-black-50">An appointment around the current issues"
+                                      Because it is our responsibility to help resist the problems
+                                      of society, the time has come to take concrete action to 
+                                      overcome the long-standing problems.
+                                      It is enough to think differently about the solutions, out of 
+                                      the ordinary, in order to confront in an innovative and 
+                                      effective way the immense challenges of this world.
               <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
           </div>
-        </div>
-        <img src="img/ipad.png" class="img-fluid" alt="">
-      </div>
+        
     </section>
 
     <!-- Projects Section -->
@@ -137,7 +158,7 @@
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           
             <div class="col-xl-6 col-lg-6" id="txt">
-              <div class="featured-text text-center text-lg-left border-none">
+              <div class="featured-text text-center text-lg-left border-none" id ="text">
                 <h4>TEDx ??</h4>
                 <p class="text-black-50 mb-0">
                   In the spirit of "ideas worth spreading," TED has created TEDx
@@ -196,23 +217,7 @@
     </section>
 
     <!-- Signup Section -->
-    <section id="signup" class="signup-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-            <form class="form-inline d-flex">
-              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-              <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-            </form>
-
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <!-- Contact Section -->
     <section class="contact-section bg-black">
@@ -223,10 +228,10 @@
           <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Address</h4>
+                <i class="fas fa-map-marked-alt text-primary mb-2 contactsred"></i>
+                <h4 class="text-uppercase m-0 contactsred">Address</h4>
                 <hr class="my-4">
-                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                <div class="small text-black-50 contactsred">4923 Market Street, Orlando FL</div>
               </div>
             </div>
           </div>
@@ -234,11 +239,11 @@
           <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Email</h4>
+                <i class="fas fa-envelope text-primary mb-2 contactsred"></i>
+                <h4 class="text-uppercase m-0 contactsred">Email</h4>
                 <hr class="my-4">
                 <div class="small text-black-50">
-                  <a href="#">hello@yourdomain.com</a>
+                  <a href="#" class="contactsred">hello@yourdomain.com</a>
                 </div>
               </div>
             </div>
@@ -247,10 +252,10 @@
           <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Phone</h4>
+                <i class="fas fa-mobile-alt text-primary mb-2 contactsred"></i>
+                <h4 class="text-uppercase m-0 contactsred">Phone</h4>
                 <hr class="my-4">
-                <div class="small text-black-50">+1 (555) 902-8832</div>
+                <div class="small text-black-50 contactsred">+1 (555) 902-8832</div>
               </div>
             </div>
           </div>
