@@ -17,3 +17,10 @@ $(window).scroll(function(e){
 	
 	
 })
+
+if ($(window).width()<990){
+	console.log("yes")
+	let swap = $("#txt").html()
+	$("#txt").html($("#img").html())
+	$("#img").html(swap)
+}
