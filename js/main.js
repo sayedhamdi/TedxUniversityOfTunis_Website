@@ -26,3 +26,4 @@ if ($(window).width()<990){
 	$("#img").html(swap)
 
 }
+
