@@ -27,3 +27,9 @@ if ($(window).width()<990){
 
 }
 
+let date = new Date()
+let day = date.getDate()
+console.log(day)
+for (var i=1;i<9;i++){
+	$("#"+String(i)).html("<center><b>J-"+ (i+14-day)+"<b/></center>"+"<br>Until Speaker Announcement")
+}

@@ -48,7 +48,9 @@
   #about{
     padding:5rem;
   }
- 
+ #mainNav{
+  box-shadow: 0px 0px;
+ }
 
 .hovereffect {
   width: 100%;
@@ -130,4 +132,6 @@
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-  
+.overlay{
+  margin-bottom: 0.2em;
+}
